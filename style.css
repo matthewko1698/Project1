@@ -18,6 +18,7 @@ body{
   background-color: var(--txtcolor);
   width: 30%;
   height:100%;
+  style.display: block;
 }
 .username{
   font-family: Major Mono Display;
