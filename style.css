@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Major+Mono+Display|Poiret+One|Questrial');
 :root{
-  --background-color: #3d4a5b;
+  --background-color: #1b2128;
   --txtcolor:#dee2e8;
   --txtbox:#1b2128;
 }
@@ -11,13 +11,19 @@ body{
   border-width: thin;
 }
 .person_image{
-  width: 10%;
-  height: 15%;
+  width: 7%;
+  height: 11%;
 }
 .day-box.PREP{
-  background-color: var(--txtbox);
+  background-color: var(--txtcolor);
+  width: 30%;
+  height:40%;
 }
 .username{
   font-family: Major Mono Display;
   color: var(--txtcolor);
+}
+h1{
+  color: var(--txtcolor);
+  font-family: Poiret One;
 }
