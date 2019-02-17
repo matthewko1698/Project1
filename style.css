@@ -14,6 +14,10 @@ body{
   width: 10%;
   height: 15%;
 }
-.day-box PREP{
+.day-box.PREP{
   background-color: var(--txtbox);
+}
+.username{
+  font-family: Major Mono Display;
+  color: var(--txtcolor);
 }
