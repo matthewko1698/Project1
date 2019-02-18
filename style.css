@@ -10,6 +10,7 @@ body{
   position: absolute;
   height: 100%;
   overflow:scroll;
+  overflow-x: scroll;
   overflow-y: hidden;
   white-space:nowrap;
 }
@@ -35,7 +36,7 @@ header{
   background-color: var(--txtcolor);
   width: 30%;
   height:20em;
-  display: block;
+  display: inline-block;
   margin:30px;
   padding:50px;
   float:left;
@@ -44,7 +45,7 @@ header{
   background-color: var(--txtcolor);
   width: 30%;
   height:20em;
-  display: block;
+  display: inline-block;
   margin:30px;
   padding:20px;
   float:left;
@@ -53,7 +54,7 @@ header{
   background-color: var(--txtcolor);
   width: 30%;
   height:20em;
-  display: block;
+  display: inline-block;
   margin:30px;
   padding:50px;
   float:left;
