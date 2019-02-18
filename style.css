@@ -33,6 +33,7 @@ header{
   height: 9%;
 }
 .day-box.PREP{
+  position: absolute;
   background-color: var(--txtcolor);
   width: 30%;
   height:40%;
@@ -42,6 +43,7 @@ header{
   float:left;
 }
 .day-box.CURRENT{
+  position: absolute;
   background-color: var(--txtcolor);
   width: 30%;
   height:40%;
@@ -51,6 +53,7 @@ header{
   float:left;
 }
 .day-box.COMPLETED{
+  position: absolute;
   background-color: var(--txtcolor);
   width: 30%;
   height:40%;
