@@ -30,13 +30,13 @@ header{
   border-width: thin;
 }
 .person_image{
-  width: 6%;
-  height: 9%;
+  width: 4%;
+  height: 6%;
 }
 .day-box.PREP{
   position: relative;
   background-color: var(--txtcolor);
-  width: 30%;
+  width: 25em;
   height:40%;
   display: inline-block;
   margin:30px;
@@ -46,7 +46,7 @@ header{
 .day-box.CURRENT{
   position: relative;
   background-color: var(--txtcolor);
-  width: 30%;
+  width: 25em;
   height:40%;
   display: inline-block;
   margin:30px;
@@ -56,7 +56,7 @@ header{
 .day-box.COMPLETED{
   position: relative;
   background-color: var(--txtcolor);
-  width: 30%;
+  width: 25em;
   height:40%;
   display: inline-block;
   margin:30px;
