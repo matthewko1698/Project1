@@ -18,7 +18,7 @@ header{
 }
 .day{
   font-family: Major Mono Display;
-  font-size: 1.5em;
+  font-size: 2em;
 }
 .reading{
   font-family: Questrial;
@@ -33,11 +33,12 @@ header{
 }
 .day-box.PREP{
   background-color: var(--txtcolor);
-  width: 30%;
+  width: 60%;
   height:20em;
   display: block;
   margin:30px;
   padding:50px;
+  float:left;
 }
 .day-box.CURRENT{
   background-color: var(--txtcolor);
@@ -45,7 +46,8 @@ header{
   height:20em;
   display: block;
   margin:30px;
-  padding:50px;
+  padding:20px;
+  float:left;
 }
 .day-box.COMPLETED{
   background-color: var(--txtcolor);
@@ -54,6 +56,7 @@ header{
   display: block;
   margin:30px;
   padding:50px;
+  float:left;
 }
 .username{
   font-family: Major Mono Display;
