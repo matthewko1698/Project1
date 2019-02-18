@@ -30,8 +30,8 @@ header{
   border-width: thin;
 }
 .person_image{
-  width: 4%;
-  height: 6%;
+  width: 80px;
+  height: 110px;
 }
 .day-box.PREP{
   position: relative;
@@ -66,7 +66,7 @@ header{
 .username{
   font-family: Major Mono Display;
   color: var(--txtcolor);
-  font-size: 4em;
+  font-size: 1.7em;
 }
 a:link{
   color: var(--txtcolor);
