@@ -7,10 +7,10 @@
 }
 body{
   background-color: var(--background-color);
-  position: absolute;
+  white-space:nowrap;
   height: 100%;
   overflow-x: auto;
-  white-space:nowrap;
+
 }
 header{
   position: fixed;
@@ -45,7 +45,7 @@ header{
   height:40%;
   display: inline-block;
   margin:30px;
-  padding:20px;
+  padding:50px;
   float:left;
 }
 .day-box.COMPLETED{
@@ -54,7 +54,7 @@ header{
   height:40%;
   display: inline-block;
   margin:30px;
-  padding:20px;
+  padding:50px;
   float:left;
 }
 .username{
