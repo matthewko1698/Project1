@@ -7,6 +7,7 @@
 }
 body{
   background-color: var(--background-color);
+  position:absolute;
   height: 100%;
   overflow:scroll;
   overflow-y: hidden;
@@ -40,7 +41,6 @@ header{
   display: inline-block;
   margin:30px;
   padding:50px;
-  float:left;
   vertical-align: top;
 }
 .day-box.CURRENT{
@@ -51,7 +51,6 @@ header{
   display: inline-block;
   margin:30px;
   padding:50px;
-  float:left;
   vertical-align: top;
 }
 .day-box.COMPLETED{
@@ -62,7 +61,6 @@ header{
   display: inline-block;
   margin:30px;
   padding:50px;
-  float:left;
   vertical-align: top;
 }
 .username{
