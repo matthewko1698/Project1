@@ -7,9 +7,11 @@
 }
 body{
   background-color: var(--background-color);
-  white-space:nowrap;
   height: 100%;
+  overflow:scroll;
+  overflow-y: hidden;
   overflow-x: auto;
+  white-space:nowrap;
 
 }
 header{
