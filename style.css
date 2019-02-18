@@ -3,9 +3,26 @@
   --background-color: #1b2128;
   --txtcolor:#dee2e8;
   --txtbox:#1b2128;
+  --darktxt:#000f30;
 }
 body{
   background-color: var(--background-color);
+  position: absolute;
+  height: 100%;
+  overflow:scroll;
+  overflow-y: hidden;
+  white-space:nowrap;
+}
+header{
+  position: fixed;
+}
+.day{
+  font-family: Major Mono Display;
+  font-size: 5em;
+}
+.reading{
+  font-family: Questrial;
+  font-size: 3em;
 }
 .header{
   border-width: thin;
@@ -22,11 +39,39 @@ body{
   margin:30px;
   padding:50px;
 }
+.day-box.CURRENT{
+  background-color: var(--txtcolor);
+  width: 30%;
+  height:20em;
+  display: block;
+  margin:30px;
+  padding:50px;
+}
+.day-box.COMPLETED{
+  background-color: var(--txtcolor);
+  width: 30%;
+  height:20em;
+  display: block;
+  margin:30px;
+  padding:50px;
+}
 .username{
   font-family: Major Mono Display;
   color: var(--txtcolor);
+  font-size: 4em;
+}
+a:link{
+  color: var(--txtcolor);
+  text-decoration: none;
+  font-family: Poiret One, Helvetica, Arial, sans-serif;
+  font-size: 4em;
+}
+a.assignment_link{
+  color: var(--darktxt);
+  font-family: Questrial;
 }
 h1{
   color: var(--txtcolor);
   font-family: Poiret One;
+  font-size: 300%;
 }
