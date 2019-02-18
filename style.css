@@ -41,6 +41,7 @@ header{
   margin:30px;
   padding:50px;
   float:left;
+  vertical-align: top;
 }
 .day-box.CURRENT{
   position: relative;
@@ -51,6 +52,7 @@ header{
   margin:30px;
   padding:50px;
   float:left;
+  vertical-align: top;
 }
 .day-box.COMPLETED{
   position: relative;
@@ -61,6 +63,7 @@ header{
   margin:30px;
   padding:50px;
   float:left;
+  vertical-align: top;
 }
 .username{
   font-family: Major Mono Display;
