@@ -18,11 +18,11 @@ header{
 }
 .day{
   font-family: Major Mono Display;
-  font-size: 5em;
+  font-size: 1.5em;
 }
 .reading{
   font-family: Questrial;
-  font-size: 3em;
+  font-size: 1em;
 }
 .header{
   border-width: thin;
@@ -64,7 +64,7 @@ a:link{
   color: var(--txtcolor);
   text-decoration: none;
   font-family: Poiret One, Helvetica, Arial, sans-serif;
-  font-size: 4em;
+  font-size: 1em;
 }
 a.assignment_link{
   color: var(--darktxt);
@@ -73,5 +73,5 @@ a.assignment_link{
 h1{
   color: var(--txtcolor);
   font-family: Poiret One;
-  font-size: 300%;
+  font-size: 2em;
 }
