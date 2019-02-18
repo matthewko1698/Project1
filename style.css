@@ -33,7 +33,7 @@ header{
 }
 .day-box.PREP{
   background-color: var(--txtcolor);
-  width: 60%;
+  width: 30%;
   height:20em;
   display: block;
   margin:30px;
