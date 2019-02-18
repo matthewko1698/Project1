@@ -42,6 +42,7 @@ header{
   margin:30px;
   padding:50px;
   vertical-align: top;
+  overflow-wrap: break-word;
 }
 .day-box.CURRENT{
   position: relative;
@@ -52,6 +53,7 @@ header{
   margin:30px;
   padding:50px;
   vertical-align: top;
+  overflow-wrap: break-word;
 }
 .day-box.COMPLETED{
   position: relative;
@@ -62,6 +64,7 @@ header{
   margin:30px;
   padding:50px;
   vertical-align: top;
+  overflow-wrap: break-word;
 }
 .username{
   font-family: Major Mono Display;
