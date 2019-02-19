@@ -10,7 +10,7 @@ body{
   position:absolute;
   /* height: 100%; */
   overflow:scroll;
-  overflow-y: hidden;
+  /* overflow-y: hidden; */
   overflow-x: auto;
   white-space:nowrap;
 
