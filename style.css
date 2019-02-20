@@ -87,6 +87,10 @@ body{
   white-space: normal;
   margin-top: 4%;
 }
+.day-box.COMPLETED>a{
+  color: var(--txtcolor);
+  font-size: 1em;
+}
 .username{
   font-family: Major Mono Display;
   color: var(--txtcolor);
@@ -99,6 +103,9 @@ body{
 ul{
   font-size: 1em;
 }
+li{
+  font-size:1em;
+}
 a:link{
   color: var(--txtcolor);
   text-decoration: none;
@@ -108,6 +115,9 @@ a:link{
 a.assignment_link{
   color: var(--darktxt);
   font-family: Questrial;
+  font-size:1em;
+}
+a.assignment_label{
   font-size:1em;
 }
 a:visited{
