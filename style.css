@@ -37,6 +37,16 @@ body{
   font-size: 1em;
   color:var(--darktxt);
 }
+.reading a{
+  font-family: Questrial;
+  color: var(--darktxt);
+  font-size: 1em;
+}
+.reading a:visited{
+  font-family: Questrial;
+  color: var(--darktxt);
+  font-size: 1em;
+}
 .notes{
   font-family: Questrial;
   font-size: 1em;
@@ -88,16 +98,7 @@ body{
   margin-top: 4%;
   overflow-y: scroll;
 }
-.reading a{
-  font-family: Questrial;
-  color: var(--darktxt);
-  font-size: 1em;
-}
-.reading a:visited{
-  font-family: Questrial;
-  color: var(--darktxt);
-  font-size: 1em;
-}
+
 .username{
   font-family: Major Mono Display;
   color: var(--txtcolor);
