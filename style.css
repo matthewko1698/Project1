@@ -37,12 +37,12 @@ body{
   font-size: 1em;
   color:var(--darktxt);
 }
-.reading a{
+.reading a:link{
   font-family: Questrial;
   color: var(--darktxt);
   font-size: 1em;
 }
-.reading a:visited{
+.reading a:link:visited{
   font-family: Questrial;
   color: var(--darktxt);
   font-size: 1em;
