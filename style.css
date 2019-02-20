@@ -89,10 +89,12 @@ body{
   overflow-y: scroll;
 }
 .day-box.COMPLETED a{
+  font-family: Questrial;
   color: var(--darktxt);
   font-size: 1em;
 }
 .day-box.COMPLETED a:visited{
+  font-family: Questrial;
   color: var(--darktxt);
   font-size: 1em;
 }
