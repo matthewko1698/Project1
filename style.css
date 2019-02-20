@@ -86,8 +86,13 @@ body{
   vertical-align: top;
   white-space: normal;
   margin-top: 4%;
+  overflow-y: scroll;
 }
-.day-box.COMPLETED>a{
+.day-box.COMPLETED a{
+  color: var(--darktxt);
+  font-size: 1em;
+}
+.day-box.COMPLETED a:visited{
   color: var(--darktxt);
   font-size: 1em;
 }
@@ -113,6 +118,11 @@ a:link{
   font-size: 1.8em;
 }
 a.assignment_link{
+  color: var(--darktxt);
+  font-family: Questrial;
+  font-size:1em;
+}
+a.assignment_link:visited{
   color: var(--darktxt);
   font-family: Questrial;
   font-size:1em;
