@@ -15,14 +15,26 @@ body{
   white-space:nowrap;
 
 }
-header{
+.header{
   position: fixed;
+}
+
+.person_info{
+  display:inline-block;
+  float:right;
+}
+.partners{
+  display: inline-block;
 }
 .day{
   font-family: Major Mono Display;
   font-size: 2em;
 }
 .reading{
+  font-family: Questrial;
+  font-size: 1em;
+}
+.notes{
   font-family: Questrial;
   font-size: 1em;
 }
@@ -77,11 +89,14 @@ a:link{
   color: var(--txtcolor);
   text-decoration: none;
   font-family: Poiret One, Helvetica, Arial, sans-serif;
-  font-size: 1em;
+  font-size: 2.3em;
 }
 a.assignment_link{
   color: var(--darktxt);
   font-family: Questrial;
+}
+a:visited{
+  color: var(--txtcolor);
 }
 h1{
   color: var(--txtcolor);
