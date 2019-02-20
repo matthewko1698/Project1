@@ -88,7 +88,7 @@ body{
   margin-top: 4%;
 }
 .day-box.COMPLETED>a{
-  color: var(--txtcolor);
+  color: var(--darktxt);
   font-size: 1em;
 }
 .username{
@@ -104,7 +104,7 @@ ul{
   font-size: 1em;
 }
 li{
-  font-size:1em;
+  font-size:50%;
 }
 a:link{
   color: var(--txtcolor);
