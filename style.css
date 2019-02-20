@@ -117,9 +117,13 @@ a.assignment_link{
   font-family: Questrial;
   font-size:1em;
 }
-a.assignment_label{
+.assignment-label{
   font-size:1em;
   color: var(--darktxt);
+}
+.grade{
+  font-size:1em;
+  color:var(--darktxt);
 }
 a:visited{
   color: var(--txtcolor);
