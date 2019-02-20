@@ -14,12 +14,15 @@ body{
   overflow-x: scroll;
   white-space:nowrap;
 }
+::-webkit-scrollbar{
+  width:50px;
+}
 ::-webkit-scrollbar-thumb{
   color:var(--txtcolor);
   border-radius: 15px;
 }
 ::-webkit-scrollbar-track{
-  display: none;
+  color:var(--background-color);
 }
 ::-webkit-scrollbar-corner{
     display: none; height: 0px; width: 0px;
