@@ -35,6 +35,7 @@ body{
 .reading{
   font-family: Questrial;
   font-size: 1em;
+  color:var(--darktxt);
 }
 .notes{
   font-family: Questrial;
