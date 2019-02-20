@@ -42,7 +42,7 @@ body{
   color: var(--darktxt);
   font-size: 1em;
 }
-.reading a:link:visited{
+.reading a:visited{
   font-family: Questrial;
   color: var(--darktxt);
   font-size: 1em;
