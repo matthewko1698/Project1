@@ -18,11 +18,11 @@ body{
   width:50px;
 }
 ::-webkit-scrollbar-thumb{
-  color:var(--txtcolor);
+  background-color:var(--txtcolor);
   border-radius: 15px;
 }
 ::-webkit-scrollbar-track{
-  color:var(--background-color);
+  background-color:var(--background-color);
 }
 ::-webkit-scrollbar-corner{
     display: none; height: 0px; width: 0px;
