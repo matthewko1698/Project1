@@ -25,6 +25,8 @@ body{
 }
 .partners{
   display: inline-block;
+  color: var(--txtcolor);
+  font-family: Questrial;
 }
 .day{
   font-family: Major Mono Display;
@@ -40,6 +42,7 @@ body{
 }
 .header{
   border-width: thin;
+  position:fixed;
 }
 .person_image{
   width: 80px;
@@ -57,6 +60,7 @@ body{
   overflow-wrap: break-word;
   word-wrap: break-word;
   white-space: normal;
+  margin-top: 4%;
 }
 .day-box.CURRENT{
   position: relative;
@@ -68,6 +72,7 @@ body{
   padding:50px;
   vertical-align: top;
   white-space: normal;
+  margin-top: 4%;
 }
 .day-box.COMPLETED{
   position: relative;
@@ -79,21 +84,30 @@ body{
   padding:50px;
   vertical-align: top;
   white-space: normal;
+  margin-top: 4%;
 }
 .username{
   font-family: Major Mono Display;
   color: var(--txtcolor);
   font-size: 1.7em;
 }
+.assignment-title{
+  font-size: 1em;
+  color: var(--darktxt);
+}
+ul{
+  font-size: 1em;
+}
 a:link{
   color: var(--txtcolor);
   text-decoration: none;
   font-family: Poiret One, Helvetica, Arial, sans-serif;
-  font-size: 2.3em;
+  font-size: 1.8em;
 }
 a.assignment_link{
   color: var(--darktxt);
   font-family: Questrial;
+  font-size:1em;
 }
 a:visited{
   color: var(--txtcolor);
