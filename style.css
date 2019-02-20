@@ -88,12 +88,12 @@ body{
   margin-top: 4%;
   overflow-y: scroll;
 }
-.day-box.COMPLETED a{
+.reading a{
   font-family: Questrial;
   color: var(--darktxt);
   font-size: 1em;
 }
-.day-box.COMPLETED a:visited{
+.reading a:visited{
   font-family: Questrial;
   color: var(--darktxt);
   font-size: 1em;
