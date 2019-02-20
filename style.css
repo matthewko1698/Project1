@@ -15,9 +15,6 @@ body{
   white-space:nowrap;
 
 }
-header{
-  width:100%
-}
 .header{
   position: fixed;
 }
@@ -56,8 +53,9 @@ header{
   font-size: 1em;
 }
 .header{
-  border-width: thin;
+  /* border-width: thin; */
   position:fixed;
+  width:100%;
 }
 .person_image{
   width: 80px;
