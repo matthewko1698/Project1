@@ -119,6 +119,7 @@ a.assignment_link{
 }
 a.assignment_label{
   font-size:1em;
+  color: var(--darktxt);
 }
 a:visited{
   color: var(--txtcolor);
