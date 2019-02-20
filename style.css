@@ -15,6 +15,9 @@ body{
   white-space:nowrap;
 
 }
+header{
+  width:100%
+}
 .header{
   position: fixed;
 }
@@ -22,6 +25,7 @@ body{
 .person_info{
   display:inline-block;
   float:right;
+  margin-right: 15px;
 }
 .partners{
   display: inline-block;
@@ -145,4 +149,6 @@ h1{
   color: var(--txtcolor);
   font-family: Poiret One;
   font-size: 2em;
+  margin-top: 4%;
+  position: fixed;
 }
