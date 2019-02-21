@@ -87,6 +87,7 @@ body{
   word-wrap: break-word;
   white-space: normal;
   margin-top: 4%;
+  overflow-y: scroll;
 }
 .day-box.CURRENT{
   position: relative;
@@ -99,6 +100,7 @@ body{
   vertical-align: top;
   white-space: normal;
   margin-top: 4%;
+  overflow-y: scroll;
 }
 .day-box.COMPLETED{
   position: relative;
@@ -166,6 +168,14 @@ h1{
 
 form.account_form{
   margin-top:5em;
-  width:100%;
+  width:500px;
+  height:500px;
   background-color: var(--txtcolor);
+}
+input{
+  display: block;
+}
+label{
+  font-family: Poiret;
+  color:var(--darktxt);
 }
