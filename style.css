@@ -168,15 +168,26 @@ h1{
 
 form.account_form{
   margin-top:12em;
-  width:500px;
-  height:500px;
+  white-space: normal;
+  align-self: center;
 }
 input{
   display: inline-block;
   vertical-align: top;
   margin: 30px;
+  width:200px;
+  height: 300px;
 }
 label{
   font-family: Poiret One;
   color:var(--txtcolor);
+  font-size: 2em;
+  width:300px;
+  white-space: normal;
+  vertical-align: top;
+}
+.title{
+  ont-family: Poiret One;
+  color:var(--txtcolor);
+  font-size: 2em;
 }
