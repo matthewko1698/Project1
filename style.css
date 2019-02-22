@@ -234,3 +234,16 @@ label{
   color:var(--txtcolor);
   font-size: 2em;
 }
+table{
+  margin-top: 25%;
+  background: var(--txtcolor);
+  width: 750px;
+  margin-left: 45%;
+  margin-right: auto;
+}
+td, th{
+  width:375px;
+  height:250px;
+  border-bottom: 5px solid var(--darktxt);
+  color:var(--darktxt)
+}
