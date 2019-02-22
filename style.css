@@ -176,6 +176,25 @@ input{
   margin: 30px;
   width:200px;
   height: 300px;
+  margin-left: -4px;
+  background-color: var(--txtcolor);
+}
+input[type="file"]{
+  background-color: var(--txtcolor);
+  height: 306px;
+  font-family: Poiret One;
+  font-size: 1.5em;
+  white-space: normal;
+  margin-left: -88px;
+}
+input.submit{
+  margin-top: 175px;
+  height: 306px;
+  background-color: white;
+  margin: 30px;
+  font-family: Poiret One;
+  font-size: 3em;
+  border: none;
 }
 label{
   font-family: Poiret One;
