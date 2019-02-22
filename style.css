@@ -245,5 +245,12 @@ td, th{
   width:375px;
   height:250px;
   border-bottom: 5px solid var(--darktxt);
-  color:var(--darktxt)
+  color:var(--darktxt);
+  font-family: Poiret One;
+  font-size:2em;
+}
+td .username{
+  white-space: normal;
+  font-family: Poiret One;
+  font-size: 2em;
 }
