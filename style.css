@@ -200,8 +200,7 @@ input[type="text"]{
   font-size: 1.5em;
   font-family: Poiret One;
   border: none;
-  height: 304px;
-}
+  height: 306px;
 }
 label{
   font-family: Poiret One;
@@ -219,7 +218,6 @@ label{
   text-align: center;
   padding-top: 125px;
   white-space: normal;
-  border:none;
 }
 .title{
   font-family: Poiret One;
