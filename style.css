@@ -245,15 +245,19 @@ table{
 td, th{
   width:375px;
   height:250px;
-  border-bottom: 17px solid var(--background);
+  border-bottom: 17px solid var(--background-color);
   color:var(--darktxt);
   font-family: Poiret One;
   font-size:2em;
-  border-right: 5px solid var(--background)
+  border-right: 5px solid var(--background-color)
+  padding:10px;
 }
 td .username{
   white-space: normal;
   font-family: Poiret One;
   font-size: 2em;
   color:var(--darktxt);
+}
+td .person_info{
+  float: left;
 }
