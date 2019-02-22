@@ -186,6 +186,11 @@ input[type="file"]{
   font-size: 1.5em;
   white-space: normal;
   margin-left: -4px;
+  border-style: solid;
+  border-color: var(--txtbox);
+  border-right: none;
+  border-top: none;
+  border-bottom: none;
 }
 input[type="submit"]{
   margin-top: 175px;
@@ -201,6 +206,11 @@ input[type="text"]{
   font-family: Poiret One;
   border: none;
   height: 304px;
+  border-style: solid;
+  border-color: var(--txtbox);
+  border-right: none;
+  border-top: none;
+  border-bottom: none;
 }
 label{
   font-family: Poiret One;
