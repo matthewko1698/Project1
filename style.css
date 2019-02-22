@@ -185,7 +185,7 @@ input[type="file"]{
   font-family: Poiret One;
   font-size: 1.5em;
   white-space: normal;
-  margin-left: -88px;
+  margin-left: -4px;
 }
 input[type="submit"]{
   margin-top: 175px;
@@ -219,6 +219,7 @@ label{
   text-align: center;
   padding-top: 125px;
   white-space: normal;
+  border:none;
 }
 .title{
   font-family: Poiret One;
