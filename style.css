@@ -249,7 +249,7 @@ td, th{
   color:var(--darktxt);
   font-family: Poiret One;
   font-size:2em;
-  border-right: 5px solid var(--background-color)
+  border-right: 10px solid var(--background-color);
   padding:10px;
 }
 td .username{
@@ -259,5 +259,9 @@ td .username{
   color:var(--darktxt);
 }
 td .person_info{
+  float: left;
+}
+td .person_image{
+  display: inline-block;
   float: left;
 }
