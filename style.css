@@ -257,6 +257,7 @@ td .username{
   font-family: Poiret One;
   font-size: 2em;
   color:var(--darktxt);
+  display: inline-block;
 }
 td .person_info{
   float: left;
@@ -264,4 +265,5 @@ td .person_info{
 td .person_image{
   display: inline-block;
   float: left;
+  margin-right: 35px;
 }
