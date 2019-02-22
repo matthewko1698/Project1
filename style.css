@@ -240,17 +240,20 @@ table{
   width: 750px;
   margin-left: 45%;
   margin-right: auto;
+  border-collapse: collapse;
 }
 td, th{
   width:375px;
   height:250px;
-  border-bottom: 5px solid var(--darktxt);
+  border-bottom: 17px solid var(--background);
   color:var(--darktxt);
   font-family: Poiret One;
   font-size:2em;
+  border-right: 5px solid var(--background)
 }
 td .username{
   white-space: normal;
   font-family: Poiret One;
   font-size: 2em;
+  color:var(--darktxt);
 }
