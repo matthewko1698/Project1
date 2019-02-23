@@ -251,6 +251,7 @@ td, th{
   font-size:2em;
   border-right: 10px solid var(--background-color);
   padding:10px;
+  white-space: normal;
 }
 td .username{
   white-space: normal;
