@@ -284,6 +284,27 @@ td .person_image{
   float: left;
   margin-right: 35px;
 }
+.rubric_score table{
+  background: var(--txtcolor);
+  width: 750px;
+  margin:auto;
+  border-collapse: collapse;
+}
+.rubric_score td,th{
+  width:200px;
+  height:50px;
+  border-bottom: 7px solid var(--background-color);
+  color:var(--darktxt);
+  font-family: Poiret One;
+  font-size:1em;
+  border-right: 5px solid var(--background-color);
+  padding:10px;
+  white-space: normal;
+  text-align: left;
+}
+.assignment_text_score{
+  width:50px;
+}
 .prompt{
   background: var(--txtcolor);
   margin-top: 150px;
