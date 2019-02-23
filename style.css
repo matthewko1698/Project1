@@ -284,9 +284,17 @@ td .person_image{
   float: left;
   margin-right: 35px;
 }
+.rubric_score{
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 150px;
+  margin-left: 25px;
+  height: 430px;
+  overflow-y: scroll;
+}
 .rubric_score table{
   background: var(--txtcolor);
-  width: 750px;
+  width: 500px;
   margin:auto;
   border-collapse: collapse;
 }
@@ -317,6 +325,51 @@ input[type="radio"]{
   font-family: Questrial;
   overflow-y: scroll;
   display: inline-block;
+}
+.assignment_prompt{
+  background: var(--txtcolor);
+  font-size: 2em;
+  width: 500px;
+  white-space: normal;
+  height: 400px;
+  display: inline-block;
+  margin-left: 25px;
+  margin-top: 150px;
+  vertical-align: top;
+  padding: 15px;
+  font-family: Poiret One;
+  font-size: 3em;
+  overflow-y: scroll;
+}
+.input_text,.assignment_text_comments{
+  width: 500px;
+  height: 400px;
+  margin-top: 150px;
+  display: inline-block;
+  margin-left: 25px;
+  padding: 15px;
+  border: 0;
+  font-family: Poiret One;
+  font-size: 1.5em;
+}
+.assignment_form p{
+  display: inherit;
+  width: 200px;
+  white-space: normal;
+  height: 400px;
+  background: var(--txtcolor);
+  vertical-align: top;
+  margin-top: 150px;
+  padding: 15px;
+  margin-left: 25px;
+  font-family: Questrial;
+}
+.assignment_form input[type="text"]{
+  display: inline-block;
+  margin-top: 300px;
+  width: 300px;
+  margin-left: 25px;
+  height: 150px;
 }
 .view_text{
   background: var(--txtcolor);
