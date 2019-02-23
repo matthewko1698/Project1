@@ -468,6 +468,7 @@ textarea[name='assignment_text_comments']{
   font-size:15pt;
   display:block;
   height:100px;
+  margin-top: 0px;
 }
 .assignment_prompt li{
   font-size: 16pt;
