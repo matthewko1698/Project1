@@ -481,6 +481,19 @@ input[name='assignment_submit']{
   margin-left: 25px;
   height: 150px;
 }
+input[name='password0']{
+  width: 200px;
+  height: 50px;
+  padding: 30px;
+  vertical-align: top;
+  display: inline-block;
+  margin: 0;
+  margin-top: 30px;
+}
+input[value='Log In']{
+  width:260px;
+  height:100px;
+}
 .view_text{
   background: var(--txtcolor);
   display: inline-block;
@@ -499,4 +512,16 @@ input[name='assignment_submit']{
   color: var(--txtcolor);
   font-size: 1.7em;
   margin-top: 180px;
+}
+.login label{
+  padding-top: 0px;
+  padding: 30px;
+  margin-right:25px;
+  width:200px;
+  height: 50px;
+  margin:30px;
+}
+.login{
+
+
 }
