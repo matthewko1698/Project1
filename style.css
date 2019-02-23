@@ -303,7 +303,8 @@ td .person_image{
   text-align: left;
 }
 .assignment_text_score{
-  width:50px;
+  width:20px;
+  height:5px;
 }
 .prompt{
   background: var(--txtcolor);
