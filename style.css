@@ -338,7 +338,7 @@ td .person_image{
 .rubric_score{
   display: inline-block;
   vertical-align: top;
-  margin-top: 150px;
+  margin-top: 170px;
   margin-left: 25px;
   height: 430px;
   overflow-y: scroll;
@@ -423,7 +423,7 @@ input[type="radio"]{
   height: 400px;
   display: inline-block;
   margin-left: 25px;
-  margin-top: 150px;
+  margin-top: 170px;
   vertical-align: top;
   padding: 15px;
   font-family: Poiret One;
@@ -433,7 +433,7 @@ input[type="radio"]{
 .input_text{
   width: 500px;
   height: 400px;
-  margin-top: 150px;
+  margin-top: 170px;
   display: inline-block;
   margin-left: 25px;
   padding: 15px;
@@ -444,7 +444,7 @@ input[type="radio"]{
 textarea[name='assignment_text_comments']{
   width: 500px;
   height: 400px;
-  margin-top: 150px;
+  margin-top: 170px;
   display: inline-block;
   margin-left: 25px;
   padding: 15px;
@@ -459,7 +459,7 @@ textarea[name='assignment_text_comments']{
   height: 400px;
   background: var(--txtcolor);
   vertical-align: top;
-  margin-top: 150px;
+  margin-top: 170px;
   padding: 15px;
   margin-left: 25px;
   font-family: Questrial;
@@ -472,7 +472,7 @@ textarea[name='assignment_text_comments']{
   width: 150px;
   white-space: normal;
   vertical-align: top;
-  margin-top: 150px;
+  margin-top: 170px;
 }
 input[name='assignment_submit']{
   display: inline-block;
