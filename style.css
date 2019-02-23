@@ -246,6 +246,7 @@ table{
 .grade-table{
   margin-left: 25px;
   margin-top:25px;
+  width:1000px;
 }
 
 td, th{
@@ -261,7 +262,7 @@ td, th{
   text-align: left;
 }
 .grade-table td, th{
-  width:361px;
+  width:362px;
   height:100px;
   font-size: 1.5em;
   border-right:none;
