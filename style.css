@@ -464,6 +464,14 @@ textarea[name='assignment_text_comments']{
   margin-left: 25px;
   font-family: Questrial;
 }
+.assignment_prompt p{
+  font-size:1em;
+  margin-top: 10px;
+  display:block;
+}
+.assignment_prompt li{
+  font-size: 1.3em;
+}
 .assignment_title{
   display: inline-block;
   font-size: 2em;
@@ -540,4 +548,14 @@ svg{
   border-style: double;
   border-width: 10px;
   border-radius: 50px;
+}
+.rubric_title{
+  display: inline-block;
+  width:300px;
+  height:400px;
+  margin-top: 170px;
+  white-space: normal;
+  font-family: Major Mono Display;
+  font-size: 2em;
+  word-break: break-word;
 }
