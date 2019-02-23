@@ -36,6 +36,7 @@ body{
   display:inline-block;
   float:right;
   margin-right: 15px;
+  text-align: right;
 }
 .partners{
   display: inline-block;
@@ -304,7 +305,7 @@ td .person_image{
   border-bottom: 7px solid var(--background-color);
   color:var(--darktxt);
   font-family: Poiret One;
-  font-size:1em;
+  font-size:2em;
   border-right: 5px solid var(--background-color);
   padding:10px;
   white-space: normal;
@@ -325,6 +326,7 @@ input[type="radio"]{
   font-family: Questrial;
   overflow-y: scroll;
   display: inline-block;
+  font-size: 2em;
 }
 .assignment_prompt{
   background: var(--txtcolor);
