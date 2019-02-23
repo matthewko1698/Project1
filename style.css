@@ -363,7 +363,7 @@ input[type="radio"]{
 }
 .prompt{
   background: var(--txtcolor);
-  margin-top: 150px;
+  margin-top: 170px;
   width: 500px;
   height: 400px;
   padding: 30px;
@@ -382,7 +382,7 @@ input[type="radio"]{
   width: 150px;
   white-space: normal;
   vertical-align: top;
-  margin-top: 150px;
+  margin-top: 170px;
 }
 .day-box.PREP .assignment-title{
   color: var(--darktxt);
@@ -478,7 +478,7 @@ input[name='assignment_submit']{
   height: 400px;
   margin-left: 25px;
   vertical-align: top;
-  margin-top: 150px;
+  margin-top: 170px;
   padding: 30px;
   font-family: Questrial;
   overflow-y: scroll;
