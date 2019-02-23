@@ -384,6 +384,7 @@ input[type="radio"]{
   vertical-align: top;
   margin-top: 170px;
   word-break: break-word;
+  position: fixed;
 }
 .day-box.PREP .assignment-title{
   color: var(--darktxt);
@@ -391,6 +392,7 @@ input[type="radio"]{
   font-size:1em;
   margin:0px;
   display: block;
+  position: static;
 }
 .day-box.CURRENT .assignment-title{
   color: var(--darktxt);
@@ -398,6 +400,7 @@ input[type="radio"]{
   font-size:1em;
   margin:0px;
   display: block;
+  position: static;
 }
 .day-box.COMPLETED .assignment-title{
   color: var(--darktxt);
@@ -405,6 +408,7 @@ input[type="radio"]{
   font-size:1em;
   margin:0px;
   display: block;
+  position: static;
 }
 .assignment_prompt{
   background: var(--txtcolor);
