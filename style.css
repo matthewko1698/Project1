@@ -352,7 +352,7 @@ input[type="radio"]{
   font-family: Questrial;
   font-size: 1.5em;
 }
-.assignment_text_comments{
+textarea[name='assignment_text_comments']{
   width: 500px;
   height: 400px;
   margin-top: 150px;
@@ -364,7 +364,7 @@ input[type="radio"]{
   font-size: 1.5em;
 }
 .assignment_form p{
-  display: inherit;
+  display: inline-block;
   width: 200px;
   white-space: normal;
   height: 400px;
@@ -375,7 +375,17 @@ input[type="radio"]{
   margin-left: 25px;
   font-family: Questrial;
 }
-input[type="text"].assignment_submit{
+.assignment_title{
+  display: inline-block;
+  font-size: 2em;
+  color: var(--txtcolor);
+  font-family: Major Mono Display;
+  width: 150px;
+  white-space: normal;
+  vertical-align: top;
+  margin-top: 150px;
+}
+.assignment_submit{
   display: inline-block;
   margin-top: 300px;
   width: 300px;
