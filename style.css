@@ -74,6 +74,9 @@ body{
 .person_image{
   width: 80px;
   height: 110px;
+  border: 10px solid var(--txtcolor);
+  border-style: double;
+  border-radius: 20px;
 }
 .day-box.PREP{
   position: relative;
@@ -288,6 +291,7 @@ td .person_image{
   display: inline-block;
   float: left;
   margin-right: 35px;
+  border:none;
 }
 .rubric_score{
   display: inline-block;
