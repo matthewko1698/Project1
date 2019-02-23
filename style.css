@@ -341,7 +341,7 @@ input[type="radio"]{
   font-size: 3em;
   overflow-y: scroll;
 }
-.input_text,.assignment_text_comments{
+.input_text{
   width: 500px;
   height: 400px;
   margin-top: 150px;
@@ -349,7 +349,18 @@ input[type="radio"]{
   margin-left: 25px;
   padding: 15px;
   border: 0;
-  font-family: Poiret One;
+  font-family: Questrial;
+  font-size: 1.5em;
+}
+.assignment_text_comments{
+  width: 500px;
+  height: 400px;
+  margin-top: 150px;
+  display: inline-block;
+  margin-left: 25px;
+  padding: 15px;
+  border: 0;
+  font-family: Questrial;
   font-size: 1.5em;
 }
 .assignment_form p{
@@ -364,7 +375,7 @@ input[type="radio"]{
   margin-left: 25px;
   font-family: Questrial;
 }
-.assignment_form input[type="text"]{
+input[type="text"].assignment_submit{
   display: inline-block;
   margin-top: 300px;
   width: 300px;
