@@ -466,16 +466,18 @@ textarea[name='assignment_text_comments']{
 }
 .assignment_prompt p{
   font-size:15pt;
-  margin-top: 10px;
-  display:inline-block;
-  height:50px;
+  display:block;
+  height:100px;
 }
 .assignment_prompt li{
   font-size: 16pt;
+  display: list-item;
+  list-style-type: upper-roman;
 }
 .assignment_prompt ol{
   margin-bottom:0px;
-  display: inline-block;
+  display:block;
+
 }
 .assignment_title{
   display: inline-block;
@@ -559,9 +561,12 @@ svg{
   display: inline-block;
   width:300px;
   height:400px;
+  width:150px;
+  color:var(--txtcolor);
   margin-top: 170px;
   white-space: normal;
   font-family: Major Mono Display;
   font-size: 2em;
   word-break: break-word;
+  margin-left: 5px;
 }
