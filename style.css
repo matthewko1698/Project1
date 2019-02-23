@@ -213,7 +213,11 @@ form.account_form{
   align-self: center;
 }
 .account_form .person_image{
-    margin-top: 30px;
+  margin-top: 30px;
+  border: 0;
+  border-radius: 0;
+  height: 306px;
+  width: 222.5px;
 }
 input{
   display: inline-block;
@@ -481,7 +485,7 @@ input[name='assignment_submit']{
   display: inline-block;
   width: 500px;
   height: 400px;
-  margin-left: 25px;
+  margin-left: 179px;
   vertical-align: top;
   margin-top: 170px;
   padding: 30px;
