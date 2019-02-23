@@ -377,6 +377,7 @@ input[type="radio"]{
   overflow-y: scroll;
   display: inline-block;
   font-size: 2em;
+  margin-left: 179px;
 }
 .assignment-title{
   display: inline-block;
