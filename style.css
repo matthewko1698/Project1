@@ -346,6 +346,13 @@ input[type="radio"]{
   vertical-align: top;
   margin-top: 150px;
 }
+.prep-box .assignment-title{
+  color: var(--darktxt);
+  font-family: Questrial;
+  font-size:1em;
+  margin:0px;
+  display: block;
+}
 .assignment_prompt{
   background: var(--txtcolor);
   font-size: 2em;
