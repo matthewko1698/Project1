@@ -486,10 +486,11 @@ input[name='assignment_submit']{
   display: inline-block;
   width: 500px;
   height: 400px;
-  margin-left: 179px;
+  margin-left: 25px;
   vertical-align: top;
   margin-top: 170px;
   padding: 30px;
   font-family: Questrial;
   overflow-y: scroll;
+  white-space: normal;
 }
