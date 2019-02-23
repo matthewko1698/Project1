@@ -302,7 +302,7 @@ td .person_image{
   white-space: normal;
   text-align: left;
 }
-.assignment_text_score{
+input[type="radio"]{
   width:20px;
   height:5px;
 }
