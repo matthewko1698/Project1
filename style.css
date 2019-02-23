@@ -242,6 +242,11 @@ table{
   margin-right: auto;
   border-collapse: collapse;
 }
+.grade_table{
+  margin-left: 25px;
+  margin-top:25px;
+}
+
 td, th{
   width:375px;
   height:250px;
@@ -253,6 +258,14 @@ td, th{
   padding:10px;
   white-space: normal;
   text-align: left;
+}
+.grade_table td, th{
+  width:361px;
+  height:100px;
+  font-size: 1.5em;
+  border-right:none;
+  border-bottom: 10px solid var(--background-color);
+  
 }
 td .username{
   white-space: normal;
