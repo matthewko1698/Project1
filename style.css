@@ -339,7 +339,7 @@ td .person_image{
 .rubric_score{
   display: inline-block;
   vertical-align: top;
-  margin-top: 170px;
+  margin-top: 200px;
   margin-left: 25px;
   height: 430px;
   overflow-y: scroll;
@@ -391,7 +391,7 @@ input[type="radio"]{
   width: 150px;
   white-space: normal;
   vertical-align: top;
-  margin-top: 170px;
+  margin-top: 200px;
   word-break: break-word;
   position: fixed;
 }
@@ -427,7 +427,7 @@ input[type="radio"]{
   height: 400px;
   display: inline-block;
   margin-left: 25px;
-  margin-top: 170px;
+  margin-top: 200px;
   vertical-align: top;
   padding: 15px;
   font-family: Poiret One;
@@ -437,7 +437,7 @@ input[type="radio"]{
 .input_text{
   width: 500px;
   height: 400px;
-  margin-top: 170px;
+  margin-top: 200px;
   display: inline-block;
   margin-left: 25px;
   padding: 15px;
@@ -448,7 +448,7 @@ input[type="radio"]{
 textarea[name='assignment_text_comments']{
   width: 500px;
   height: 400px;
-  margin-top: 170px;
+  margin-top: 200px;
   display: inline-block;
   margin-left: 25px;
   padding: 15px;
@@ -463,7 +463,7 @@ textarea[name='assignment_text_comments']{
   height: 400px;
   background: var(--txtcolor);
   vertical-align: top;
-  margin-top: 170px;
+  margin-top: 200px;
   padding: 15px;
   margin-left: 25px;
   font-family: Questrial;
@@ -497,7 +497,7 @@ textarea[name='assignment_text_comments']{
 }
 input[name='assignment_submit']{
   display: inline-block;
-  margin-top: 300px;
+  margin-top: 350px;
   width: 300px;
   margin-left: 25px;
   height: 150px;
@@ -568,7 +568,7 @@ svg{
   height:400px;
   width:150px;
   color:var(--txtcolor);
-  margin-top: 170px;
+  margin-top: 200px;
   white-space: normal;
   font-family: Major Mono Display;
   font-size: 2em;
