@@ -494,3 +494,9 @@ input[name='assignment_submit']{
   overflow-y: scroll;
   white-space: normal;
 }
+.login .username{
+  font-family: Major Mono Display;
+  color: var(--txtcolor);
+  font-size: 1.7em;
+  margin-top: 180px;
+}
