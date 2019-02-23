@@ -384,7 +384,21 @@ input[type="radio"]{
   vertical-align: top;
   margin-top: 150px;
 }
-.prep-box .assignment-title{
+.day-box.PREP .assignment-title{
+  color: var(--darktxt);
+  font-family: Questrial;
+  font-size:1em;
+  margin:0px;
+  display: block;
+}
+.day-box.CURRENT .assignment-title{
+  color: var(--darktxt);
+  font-family: Questrial;
+  font-size:1em;
+  margin:0px;
+  display: block;
+}
+.day-box.COMPLETED .assignment-title{
   color: var(--darktxt);
   font-family: Questrial;
   font-size:1em;
