@@ -383,6 +383,7 @@ input[type="radio"]{
   white-space: normal;
   vertical-align: top;
   margin-top: 170px;
+  word-break: break-word;
 }
 .day-box.PREP .assignment-title{
   color: var(--darktxt);
