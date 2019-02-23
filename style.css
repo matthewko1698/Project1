@@ -153,11 +153,11 @@ a.assignment_link{
   padding: 5px;
 }
 .graded-assignment{
-  margin-top: 200px;
+  /* margin-top: 200px; */
   font-family: Poiret One;
   color: var(--darktxt);
-  font-size: 3em;
-  margin-left: 25px;
+  font-size: 1em;
+  /* margin-left: 25px; */
   display: inline-block;
   background: var(--txtcolor);
   vertical-align: top;
