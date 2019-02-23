@@ -385,7 +385,7 @@ textarea[name='assignment_text_comments']{
   vertical-align: top;
   margin-top: 150px;
 }
-.assignment_submit{
+.assignment_form input[type="submit"]{
   display: inline-block;
   margin-top: 300px;
   width: 300px;
