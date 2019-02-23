@@ -465,12 +465,17 @@ textarea[name='assignment_text_comments']{
   font-family: Questrial;
 }
 .assignment_prompt p{
-  font-size:1em;
+  font-size:15pt;
   margin-top: 10px;
-  display:block;
+  display:inline-block;
+  height:50px;
 }
 .assignment_prompt li{
-  font-size: 1.3em;
+  font-size: 16pt;
+}
+.assignment_prompt ol{
+  margin-bottom:0px;
+  display: inline-block;
 }
 .assignment_title{
   display: inline-block;
@@ -481,6 +486,7 @@ textarea[name='assignment_text_comments']{
   white-space: normal;
   vertical-align: top;
   margin-top: 170px;
+  word-break: break-word;
 }
 input[name='assignment_submit']{
   display: inline-block;
