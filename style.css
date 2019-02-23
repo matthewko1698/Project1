@@ -302,11 +302,11 @@ td .person_image{
 .rubric_score td,th{
   width:200px;
   height:50px;
-  border-bottom: 7px solid var(--background-color);
+  border-bottom: 17px solid var(--background-color);
   color:var(--darktxt);
   font-family: Poiret One;
   font-size:2em;
-  border-right: 5px solid var(--background-color);
+  border-right: 10px solid var(--background-color);
   padding:10px;
   white-space: normal;
   text-align: left;
