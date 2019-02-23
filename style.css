@@ -269,3 +269,26 @@ td .person_image{
   float: left;
   margin-right: 35px;
 }
+.prompt{
+  background: var(--txtcolor);
+  margin-top: 150px;
+  width: 500px;
+  height: 400px;
+  padding: 30px;
+  white-space: normal;
+  margin-left: 25px;
+  font-family: Questrial;
+  overflow-y: scroll;
+}
+.view_text{
+  background: var(--txtcolor);
+  display: inline-block;
+  width: 500px;
+  height: 400px;
+  margin-left: 20px;
+  vertical-align: top;
+  margin-top: 150px;
+  padding: 30px;
+  font-family: Questrial;
+  overflow-y: scroll;
+}
