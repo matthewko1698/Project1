@@ -332,6 +332,16 @@ input[type="radio"]{
   display: inline-block;
   font-size: 2em;
 }
+.assignment-title{
+  display: inline-block;
+  font-size: 2em;
+  color: var(--txtcolor);
+  font-family: Major Mono Display;
+  width: 150px;
+  white-space: normal;
+  vertical-align: top;
+  margin-top: 150px;
+}
 .assignment_prompt{
   background: var(--txtcolor);
   font-size: 2em;
