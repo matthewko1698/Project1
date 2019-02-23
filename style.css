@@ -41,7 +41,8 @@ body{
 .partners{
   display: inline-block;
   color: var(--txtcolor);
-  font-family: Questrial;
+  font-family: Poiret One;
+  float:right;
 }
 .day{
   font-family: Major Mono Display;
@@ -570,4 +571,5 @@ svg{
   font-size: 2em;
   word-break: break-word;
   margin-left: 5px;
+  vertical-align: top;
 }
