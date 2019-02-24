@@ -628,3 +628,6 @@ h3{
   z-index: 1;
   position: relative;
 }
+.sound:hover{
+  background: rgb(108, 210, 241,0.3);
+}
