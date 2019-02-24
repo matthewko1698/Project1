@@ -47,12 +47,12 @@ body{
 }
 .day{
   font-family: Major Mono Display;
-  font-size: 2em;
+  font-size: 2.1em;
   margin-bottom: 30px;
 }
 .reading{
   font-family: Questrial;
-  font-size: 1.5em;
+  font-size: 1.2em;
   color:var(--darktxt);
 }
 .reading a:link{
@@ -173,21 +173,21 @@ a.assignment_link{
   display: block;
   color: var(--darktxt);
   font-family: Questrial;
-  font-size:1.5em;
+  font-size:1.2em;
 }
 .day-box.CURRENT a.assignment_link{
   margin:0px;
   display: block;
   color: var(--darktxt);
   font-family: Questrial;
-  font-size:1.5em;
+  font-size:1.2em;
 }
 .day-box.COMPLETED a.assignment_link{
   margin:0px;
   display: block;
   color: var(--darktxt);
   font-family: Questrial;
-  font-size:1.5em;
+  font-size:1.2em;
 }
 a.assignment_link:visited{
   color: var(--darktxt);
