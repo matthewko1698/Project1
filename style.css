@@ -47,6 +47,7 @@ body{
 .day{
   font-family: Major Mono Display;
   font-size: 2em;
+  margin-bottom: 30px;
 }
 .reading{
   font-family: Questrial;
@@ -171,21 +172,21 @@ a.assignment_link{
   display: block;
   color: var(--darktxt);
   font-family: Questrial;
-  font-size:1em;
+  font-size:1.5em;
 }
 .day-box.CURRENT a.assignment_link{
   margin:0px;
   display: block;
   color: var(--darktxt);
   font-family: Questrial;
-  font-size:1em;
+  font-size:1.5em;
 }
 .day-box.COMPLETED a.assignment_link{
   margin:0px;
   display: block;
   color: var(--darktxt);
   font-family: Questrial;
-  font-size:1em;
+  font-size:1.5em;
 }
 a.assignment_link:visited{
   color: var(--darktxt);
