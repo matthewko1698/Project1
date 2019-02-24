@@ -379,7 +379,7 @@ input[type="radio"]{
   font-family: Questrial;
   overflow-y: scroll;
   display: inline-block;
-  font-size: 2em;
+  font-size: 1em;
   margin-left: 179px;
 }
 .prompt p{
