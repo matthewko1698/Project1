@@ -615,9 +615,9 @@ h3{
   font-size: 1.2em;
 }
 .grade_form .prompt{
-  margin-left: 25px;
+  margin-left: 175px;
 }
-.grade_form .assignment_title{
+.grade_form .assignment-title{
   position:static;
   margin-top: 200px;
 }
