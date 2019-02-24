@@ -591,3 +591,9 @@ h2{
   font-size: 2.5em;
   color: var(--txtcolor);
 }
+h3{
+  margin-top: 170px;
+  font-family: Poiret One;
+  font-size: 3em;
+  color: var(--txtcolor);
+}
