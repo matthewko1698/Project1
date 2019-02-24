@@ -71,6 +71,8 @@ body{
   /* border-width: thin; */
   position:fixed;
   width:100%;
+  background: rgb(27, 33, 40,0.6);
+  margin-top: -8px;
 }
 .person_image{
   width: 80px;
