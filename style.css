@@ -621,13 +621,13 @@ h3{
   position:static;
   margin-top: 200px;
 }
-.sound{
+td .sound{
   width: 80px;
   height: 110px;
   border-radius: 20px;
   z-index: 1;
   position: relative;
 }
-.sound:hover{
+td .sound:hover{
   background: rgb(108, 210, 241,0.3);
 }
