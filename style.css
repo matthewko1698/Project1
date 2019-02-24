@@ -387,6 +387,9 @@ input[type="radio"]{
 .prompt p{
   font-size: 15pt;
 }
+.prompt li{
+  font-size:1em;
+}
 .assignment-title{
   display: inline-block;
   font-size: 2em;
