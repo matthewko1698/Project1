@@ -522,7 +522,7 @@ input[name='username0']{
   width: 202px;
   padding: 30px;
   height: 20px;
-  margin-left: 21px;
+  margin-left: 100px;
   font-size: 1em;
   margin-top: 170px;
   margin-bottom:0px;
@@ -530,6 +530,7 @@ input[name='username0']{
 input[value='Log In']{
   width:260px;
   height:100px;
+  margin-left: -75px;
 }
 .view_text{
   background: var(--txtcolor);
