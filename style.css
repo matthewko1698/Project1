@@ -533,7 +533,7 @@ input[value='Log In']{
   margin-left: -75px;
 }
 input[name='grade_assignment_submit']{
-  margin-top:200px;
+  margin-top:300px;
 }
 .view_text{
   background: var(--txtcolor);
