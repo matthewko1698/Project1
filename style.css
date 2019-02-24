@@ -621,3 +621,10 @@ h3{
   position:static;
   margin-top: 200px;
 }
+.sound{
+  width: 80px;
+  height: 110px;
+  border-radius: 20px;
+  z-index: 1;
+  position: relative;
+}
