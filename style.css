@@ -538,6 +538,7 @@ input[value='Log In']{
   font-family: Questrial;
   overflow-y: scroll;
   white-space: normal;
+  line-height: 2em;
 }
 .login .username{
   font-family: Major Mono Display;
