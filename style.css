@@ -4,6 +4,7 @@
   --txtcolor:#dee2e8;
   --txtbox:#1b2128;
   --darktxt:#000f30;
+  --linkhome:#f38edb;
 }
 body{
   background-color: var(--background-color);
@@ -51,18 +52,18 @@ body{
 }
 .reading{
   font-family: Questrial;
-  font-size: 1em;
+  font-size: 1.5em;
   color:var(--darktxt);
 }
 .reading a:link{
   font-family: Questrial;
-  color: var(--darktxt);
-  font-size: 1em;
+  color: var(--linkhome);
+  font-size: 1.5em;
 }
 .reading a:visited{
   font-family: Questrial;
-  color: var(--darktxt);
-  font-size: 1em;
+  color: var(--linkhome);
+  font-size: 1.5em;
 }
 .notes{
   font-family: Questrial;
