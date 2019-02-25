@@ -366,7 +366,7 @@ td .person_image{
 }
 input[type="radio"]{
   width:20px;
-  height:5px;
+  height:15px;
 }
 .prompt{
   background: var(--txtcolor);
