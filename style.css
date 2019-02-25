@@ -188,7 +188,7 @@ a.assignment_link:visited{
   font-size:1em;
 }
 .assignment-label{
-  font-size:1em;
+  font-size:1.4em;
   color: var(--darktxt);
   text-decoration: underline;
   font-family: Poiret One;
