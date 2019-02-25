@@ -579,8 +579,10 @@ svg{
   margin-top: 170px;
   border: var(--txtcolor);
   border-style: double;
-  border-width: 10px;
-  border-radius: 50px;
+  border-width: 7px;
+  margin-left: 250px;
+  /* border-radius: 50px; */
+
 }
 .rubric_title{
   display: inline-block;
