@@ -264,6 +264,7 @@ input[type="text"]{
   border-right: none;
   border-top: none;
   border-bottom: none;
+  font-weight: bold;
 }
 label{
   font-family: Poiret One;
@@ -281,6 +282,7 @@ label{
   text-align: center;
   padding-top: 125px;
   white-space: normal;
+  font-weight: bold;
 }
 .title{
   font-family: Poiret One;
@@ -299,6 +301,7 @@ table{
   margin-left: 179px;
   margin-top:25px;
   width:1050px;
+  font-weight: bold;
 }
 
 td, th{
