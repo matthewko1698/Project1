@@ -631,3 +631,9 @@ td .sound{
 td .sound:hover{
   background: rgb(27, 33, 40,0.3);
 }
+nav{
+  word-spacing: 1em;
+}
+nav a:hover{
+  color:#fcd95d;
+}
