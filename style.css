@@ -649,8 +649,7 @@ td .sound:hover{
   border-radius: 20px;
 }
 ::-webkit-scrollbar-track {
-  display: none
-
+  display: none;
 }
 ::-webkit-scrollbar:corner-present{
   display: none;
