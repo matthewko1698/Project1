@@ -291,14 +291,14 @@ table{
   margin-top: 25%;
   background: var(--txtcolor);
   width: 750px;
-  margin-left: 45%;
+  margin-left: 30%;
   margin-right: auto;
   border-collapse: collapse;
 }
 .grade-table{
   margin-left: 179px;
   margin-top:25px;
-  width:1149px;
+  width:1050px;
 }
 
 td, th{
@@ -371,7 +371,7 @@ input[type="radio"]{
 .prompt{
   background: var(--txtcolor);
   margin-top: 200px;
-  width: 500px;
+  width: 450px;
   height: 400px;
   padding: 30px;
   white-space: normal;
@@ -546,7 +546,7 @@ input[name='grade_assignment_submit']{
 .view_text{
   background: var(--txtcolor);
   display: inline-block;
-  width: 500px;
+  width: 450px;
   height: 400px;
   margin-left: 25px;
   vertical-align: top;
