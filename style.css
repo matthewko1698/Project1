@@ -396,6 +396,9 @@ input[type="radio"]{
   display: block;
   position: static;
 }
+.day-box.PREP .assignment-title:hover{
+  color:#6cd2f1;
+}
 .day-box.CURRENT .assignment-title{
   color: var(--darktxt);
   font-family: Questrial;
@@ -404,6 +407,9 @@ input[type="radio"]{
   display: block;
   position: static;
 }
+.day-box.CURRENT .assignment-title:hover{
+  color:#6cd2f1;
+}
 .day-box.COMPLETED .assignment-title{
   color: var(--darktxt);
   font-family: Questrial;
@@ -411,6 +417,9 @@ input[type="radio"]{
   margin:0px;
   display: block;
   position: static;
+}
+.day-box.COMPLETED .assignment-title:hover{
+  color:#6cd2f1;
 }
 .assignment_prompt{
   background: var(--txtcolor);
