@@ -638,6 +638,7 @@ td .sound{
 td .sound:hover{
   /* background: rgb(27, 33, 40,0.3); */
   background: rgb(252, 217, 93,0.3);
+  cursor: pointer;
 }
 .nav{
   word-spacing: 1em;
