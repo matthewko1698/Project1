@@ -655,6 +655,6 @@ td .sound:hover{
 ::-webkit-scrollbar:corner-present{
   display: none;
 }
-::webkit-scrollbar:vertical{
+::-webkit-scrollbar:vertical{
   display: none;
 }
