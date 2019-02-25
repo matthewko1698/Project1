@@ -644,7 +644,7 @@ td .sound:hover{
 ::-webkit-scrollbar{
   height: 20px;
 }
-::-webkit-scrollbar-thumb {
+/* ::-webkit-scrollbar-thumb {
   background: #ffffffad;
   border-radius: 20px;
 }
@@ -656,4 +656,4 @@ td .sound:hover{
 }
 ::-webkit-scrollbar:vertical{
   display: none;
-}
+} */
