@@ -439,7 +439,7 @@ input[type="radio"]{
   margin-left: 25px;
   margin-top: 200px;
   vertical-align: top;
-  padding: 15px;
+  padding: 30px;
   font-family: Poiret One;
   font-size: 3em;
   overflow-y: scroll;
@@ -450,7 +450,7 @@ input[type="radio"]{
   margin-top: 200px;
   display: inline-block;
   margin-left: 25px;
-  padding: 15px;
+  padding: 30px;
   border: 0;
   font-family: Questrial;
   font-size: 1.5em;
@@ -475,7 +475,7 @@ textarea[name='assignment_text_comments']{
   background: var(--txtcolor);
   vertical-align: top;
   margin-top: 200px;
-  padding: 15px;
+  padding: 30px;
   margin-left: 25px;
   font-family: Questrial;
 }
