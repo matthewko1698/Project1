@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Major+Mono+Display|Poiret+One|Questrial');
 :root{
-  --background-color: #00292d;
+  --background-color: #00181b;
   --txtcolor:#dee2e8;
   --txtbox:#1b2128;
   --darktxt:#000f30;
@@ -61,7 +61,7 @@ body{
   /* border-width: thin; */
   position:fixed;
   width:100%;
-  background: rgb(27, 33, 40,0.6);
+  background: rgb(0, 24, 27,0.6);
   margin-top: -8px;
   border-style: double;
   border-top: none;
@@ -645,5 +645,5 @@ td .sound:hover{
   background: #ffffff;
 }
 ::-webkit-scrollbar-track {
-  background: transparent; 
+  background: transparent;
 }
