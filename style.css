@@ -629,7 +629,9 @@ td .sound{
   position: relative;
 }
 td .sound:hover{
-  background: rgb(27, 33, 40,0.3);
+  /* background: rgb(27, 33, 40,0.3); */
+  background: rgb(252, 217, 93,0.3);
+  box-shadow: 0px 0px 20px #fcd95d;
 }
 .nav{
   word-spacing: 1em;
