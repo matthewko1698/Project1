@@ -69,6 +69,11 @@ body{
   border-color: var(--txtcolor);
   padding-left: 10px;
 }
+.header::before{
+  background: inherit;
+  position:fixed;
+  filter:blur(5px)''
+}
 .person_image{
   width: 80px;
   height: 110px;
