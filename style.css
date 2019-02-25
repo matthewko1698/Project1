@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Major+Mono+Display|Poiret+One|Questrial');
 :root{
-  --background-color: #1b2128;
+  --background-color: #00292d;
   --txtcolor:#dee2e8;
   --txtbox:#1b2128;
   --darktxt:#000f30;
@@ -14,6 +14,8 @@ body{
   /* overflow-y: hidden; */
   overflow-x: scroll;
   white-space:nowrap;
+  background-image: url(data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 5…07.8 2.09 1.68 3.03 2.63a9.99 9.99 0 0 1 16.34 0z'%3E%3C/path%3E%3C/svg%3E);
+
 }
 .header{
   position: fixed;
@@ -22,7 +24,7 @@ body{
 .person_info{
   display:inline-block;
   float:right;
-  margin-right: 15px;
+  margin-right: 25px;
   text-align: right;
 }
 .partners{
@@ -39,16 +41,16 @@ body{
 .reading{
   font-family: Questrial;
   font-size: 1.2em;
-  color:var(--darktxt);
+  color:#fcd95d;
 }
 .reading a:link{
   font-family: Questrial;
-  color: var(--linkhome);
+  color: #fcd95d;
   font-size: 1.5em;
 }
 .reading a:visited{
   font-family: Questrial;
-  color: var(--linkhome);
+  color: #fcd95d;
   font-size: 1.5em;
 }
 .notes{
@@ -61,6 +63,11 @@ body{
   width:100%;
   background: rgb(27, 33, 40,0.6);
   margin-top: -8px;
+  border-style: solid;
+  border-top: none;
+  border-radius: 0px 0px 20px 20px;
+  border-color: #fcd95d;
+  padding-left: 10px;
 }
 .person_image{
   width: 80px;
@@ -197,6 +204,7 @@ h1{
   font-size: 2em;
   margin-top: 4%;
   position: fixed;
+  margin-left: 15px;
 }
 
 form.account_form{
@@ -397,7 +405,7 @@ input[type="radio"]{
   position: static;
 }
 .day-box.PREP .assignment-title:hover{
-  color:#6cd2f1;
+  color:#fcd95d;
 }
 .day-box.CURRENT .assignment-title{
   color: var(--darktxt);
@@ -408,7 +416,7 @@ input[type="radio"]{
   position: static;
 }
 .day-box.CURRENT .assignment-title:hover{
-  color:#6cd2f1;
+  color:#fcd95d;
 }
 .day-box.COMPLETED .assignment-title{
   color: var(--darktxt);
@@ -419,7 +427,7 @@ input[type="radio"]{
   position: static;
 }
 .day-box.COMPLETED .assignment-title:hover{
-  color:#6cd2f1;
+  color:#fcd95d;
 }
 .assignment_prompt{
   background: var(--txtcolor);
