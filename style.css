@@ -642,11 +642,19 @@ td .sound:hover{
   color:#fcd95d;
 }
 ::-webkit-scrollbar{
-  height: 50px;
+  height: 20px;
+  border-radius: 20px;
 }
 ::-webkit-scrollbar-thumb {
-  background: #ffffff;
+  background: #ffffffad;
 }
 ::-webkit-scrollbar-track {
-  background: transparent;
+  display: none
+
+}
+::-webkit-scrollbar:corner-present{
+  display: none;
+}
+::webkit-scrollbar:vertical{
+  display: none;
 }
