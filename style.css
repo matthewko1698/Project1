@@ -641,3 +641,9 @@ td .sound:hover{
 .nav a:hover{
   color:#fcd95d;
 }
+::-webkit-scrollbar-thumb {
+  background: #ffffff;
+}
+::-webkit-scrollbar-track {
+  background: transparent; 
+}
