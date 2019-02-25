@@ -70,9 +70,11 @@ body{
   padding-left: 10px;
 }
 .header::before{
+  content:"";
   background: inherit;
   position:fixed;
-  filter:blur(5px)''
+  box-shadow: inset 0 0 0 3000px rgba(255,255,255,0.3);
+  filter:blur(5px);
 }
 .person_image{
   width: 80px;
